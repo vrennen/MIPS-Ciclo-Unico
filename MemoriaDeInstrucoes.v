@@ -19,7 +19,7 @@ module MemoriaDeInstrucoes(
             memoria[i] = 32'b0;      // Zera o restante da memória
         end
         */
-        $readmemh("instrucoes.bin", memoria);
+        $readmemh("instrucoes.hex", memoria);
     end
 
     // Leitura combinacional
